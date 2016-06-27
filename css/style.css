@@ -1,0 +1,123 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+a {
+	/* Typography Declrations */
+	font-weight: bold;
+	text-decoration: none;
+	color: #ED6C39;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #FF9966;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #FF9966;
+}
+
+::selection {
+    /* Appearance Declarations */
+	background: #3FB5AA;
+}
+
+.masthead-intro, 
+.masthead-heading,
+.content-footer{
+  text-align: center;
+  color: black;
+}
+
+.masthead {
+  padding: 6em 0;
+    background-image: url('https://static.pexels.com/photos/66997/pexels-photo-66997-large.jpeg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px #2F847C;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.social > li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,
+.questions-section > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h3 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FF9966;
+}
+
+.content-footer > p {
+    color: white;
+}
+
+.content-footer {
+  	/* Layout Declarations */
+	margin-top: 5em;
+	padding: 4em 0;
+	/* Appearance Rules */
+  background-color: #16667D;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  h1 {
+  	font-size: 2em;
+  }
+
+  .social {
+  	font-size: 1.5em;
+  }
+}
+
